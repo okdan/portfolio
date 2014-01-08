@@ -1,0 +1,72 @@
+<div id="footer" >
+	<div class="inside">		
+		<div class="main clearfix">
+			<div id="ttrust_recent_posts-4" class="oneThird ttrust_recent_posts footerBox widgetBox">
+				<h3>Recent Posts</h3>			
+		
+					<ul class="widgetList">
+						{% for post in site.posts %}
+							<li class="clearfix">					
+								<p class="title">
+									<a href="{{ post.url }}" title="{{ post.title }}">
+										{{ post.title }}
+									</a>
+								</p>
+								<span class="meta">{{ post.date | date: "%B %d, %Y" }}</span>
+							</li>
+						{% endfor %}
+					</ul>
+					
+			</div>		
+		
+<div class="oneThird footerBox">
+
+</div>
+<div id="text-4" class="oneThird widget_text footerBox widgetBox">
+	<h3>Get in touch</h3>
+	<div class="textwidget">
+		<div style="float:left;margin-right:25px">
+			<a href="mailto:dan@okdan.com" title="dan@okdan.com" target="_blank">Email me</a><br />
+			<a href="https://twitter.com/okdan" title="Twitter" target="_blank">Twitter</a><br />
+			<a href="http://okdan.tumblr.com/" title="Tumblr" target="_blank">Tumblr</a>
+		</div>
+		<div style="float:left;">
+			<a href="http://www.quora.com/Dan-Carson" title="Quora" target="_blank">Quora</a><br />
+			<a href="http://instagram.com/okdan" title="Instagram" target="_blank">Instagram</a><br />
+			<a href="http://www.linkedin.com/in/okdan" title="LinkedIn" target="_blank">LinkedIn</a>
+		</div>
+	</div>
+</div>				
+</div><!-- end footer main -->							
+			
+<div class="secondary clearfix">	
+	<div class="left"><p>&copy; Dan Carson, 2013</p></div>
+	<div class="right"><p></p></div>
+</div><!-- end footer secondary-->		
+		
+</div><!-- end footer inside-->		
+</div><!-- end footer -->
+</div><!-- end container -->
+
+<script type="text/javascript">
+//<![CDATA[
+
+jQuery(window).load(function() {			
+	jQuery('.flexslider').flexslider({
+		slideshowSpeed: 6000,  
+		directionNav: true,
+		slideshow: 1,				 				
+		animation: 'fade',
+		animationLoop: true
+	});  
+});
+
+//]]>
+</script>
+
+<script type='text/javascript' src='{{site.url}}/assets/js/jquery.fitvids.js?ver=1.0.3'></script>
+<script type='text/javascript' src='{{site.url}}/assets/js/jquery.fittext.js?ver=1.1'></script>
+<script type='text/javascript' src='{{site.url}}/assets/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='{{site.url}}/assets/js/main.js'></script>
+</body>
+</html>

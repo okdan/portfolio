@@ -1,3 +1,19 @@
 auto: true
-server: true
 markdown: rdiscount
+navigation:
+- text: Home
+  title: Dan Carson
+  url: /
+- text: Work
+  title: Dan Carson | Work
+  url: /work/
+- text: Blog
+  title: Dan Carson | Blog
+  url: /blog/
+- text: About
+  title: Dan Carson | About
+  url: /about/
+
+permalink: /blog/:title
+url: http://okdan.com
+cdnurl: http://okdancdn.okdan.netdna-cdn.com

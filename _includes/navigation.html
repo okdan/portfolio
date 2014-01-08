@@ -1,0 +1,28 @@
+<div class="header" id="navtop">
+	<div class="inside clearfix">					
+		<div id="logo">
+			<h1><a href="/">Dan Carson</a></h1>				
+		</div>
+		
+		<div id="mainNav" class="clearfix">							
+			<div class="menu-main-nav-container">
+				<ul id="menu-main-nav" class="sf-menu">
+    				{% for link in site.navigation %}
+    					<li 
+    						{% if page.categories[0] == link.text %}
+   								class="current-menu-item current_page_item"
+							{%endif%}
+						>
+					
+						<a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+       				</li>
+    				{% endfor %}
+
+				</ul>
+			</div>			
+		</div>			
+	</div>
+</div>
+
+
+

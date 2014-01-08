@@ -1,9 +1,36 @@
 ---
-layout: default
-title: This is just a placeholder post
+layout: blog
+categories: [Blog]
 ---
 
-<h1>{{ post.title }}</h1>
+<body>
 
-{{ content }}
+<div id="container">
 
+{% include navigation.html %}
+
+	<div class="wrap interiorPage">
+
+	<div class="header" id="pagehead">
+		<div class="header" id="pagehead">
+			<div class="inside clearfix">
+				<h1 id="pagetitle">Blog</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div id="main" class="clearfix">
+				 
+	<div id="content" class="twoThirds clearfix">
+		<div class="post-678 post type-post status-publish format-standard hentry category-blog">										<h1>
+				<a href="{{ post.url }}" rel="bookmark" >
+					{{ page.title }}
+				</a>
+			</h1>
+			<div class="meta clearfix">
+				{{ page.date | date: "%B %d, %Y" }}
+			</div>
+			{{ content }}
+																													
+		</div>				
+	</div>

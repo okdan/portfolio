@@ -1,0 +1,45 @@
+---
+layout: blog
+title: Dan Carson | Blog
+categories: [Blog]
+---
+<body class="blog " >
+
+<div id="container">
+
+{% include navigation.html %}
+
+<div class="wrap interiorPage">
+
+<div class="header" id="pagehead">
+	<div class="inside clearfix">
+		<h1 id="pagetitle">Blog</h1>
+	</div>
+</div>
+
+<div id="main" class="clearfix">
+
+<div id="content" class="twoThirds clearfix">
+	{% for post in site.posts %}
+		<div class="post-678 post type-post status-publish format-standard hentry category-blog">
+			<div class="inside">
+				<h1>
+					<a href="{{ post.url }}" rel="bookmark" >
+						{{ post.title }}
+					</a>
+				</h1>
+				<div class="meta clearfix">
+					{{ post.date | date: "%B %d, %Y" }}
+				</div>
+				<p>
+					{{ post.excerpt }}
+				</p>
+				<p class="moreLink">
+					<a href="{{ post.url }}" title="{{ post.title }}">
+						<span>Read More</span>
+					</a>
+				</p>
+			</div>
+	    </div>
+	{% endfor %}
+</div>

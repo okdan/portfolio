@@ -1,14 +1,92 @@
 ---
 layout: default
-title: Jekyll Boilerplate
+title: Dan Carson
+categories: [Home]
 ---
 
+<body class="home page page-id-11 page-template page-template-page-home-php ">
+<div id="container">
 
-<h1>{{ page.title }}</h1>
+{% include navigation.html %}
 
-{% for post in site.posts %}
+<div class="header">	
+	<div id="homeBanner">			
+		<div id="bannerText">
+			<h2>HI, I'M DAN CARSON.</h2>
+			<p class="twoThirds">I make things for the internet (and beyond). Most recently I was a Design Lead for President Obama's re-election campaign where I worked across teams, using design and technology to engage with supporters and win votes.</p>
+		</div>		
+	</div>		
+</div>
 
-    {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-
-{% endfor %}
+<div class="wrap">
+	<div id="main" class="clearfix">
+		<div id="content" class="full grid">
+			<div id="projects" class="full homeSection clearfix">			
+				<h3><span>Featured Work</span></h3>		
+				<div class="thumbs clearfix">			
+					<div class="project small 11" id="project-dashboard">
+						<div class="inside">
+							<a href="/work/dashboard/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_dashboard.jpg" class="thumb wp-post-image" alt="Dashboard" title="Dashboard" />
+								<span class="title">
+									<span>Dashboard</span>
+								</span>
+							</a>
+						</div>																																
+					</div>					
+					<div class="project small 11" id="project-obamacare-tool">
+						<div class="inside">
+							<a href="/work/obamacare-tool/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_obamacare.jpg" class="thumb wp-post-image" alt="Obamacare Tool" title="Obamacare Tool" />
+								<span class="title">
+									<span>Obamacare Tool</span>
+								</span>
+							</a>
+						</div>																																
+					</div>					
+					<div class="project small 11" id="project-youtube-channel">
+						<div class="inside">
+							<a href="/work/youtube-channel/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_youtube.jpg" class="thumb wp-post-	image" alt="Youtube Channel" title="Youtube Channel" />
+									<span class="title">
+										<span>Youtube Channel</span>
+									</span>
+							</a>
+						</div>																																
+					</div>					
+					<div class="project small 11" id="project-1m-infographic">
+						<div class="inside">
+							<a href="/work/1m-infographic/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_1M.jpg" class="thumb wp-post-	image" alt="1 Million Donors" title="1 Million Donors" />
+								<span class="title">
+									<span>1 Million Donors</span>
+								</span>
+							</a>
+						</div>																																
+					</div>					
+					<div class="project small 11" id="project-lookup">
+						<div class="inside">
+							<a href="/work/voting-lookup-tool/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_lookup.jpg" class="thumb wp-post-image" alt="Voting Lookup Tool" title="Voting Lookup Tool" />
+								<span class="title">
+									<span>Voting Lookup Tool</span>
+								</span>
+							</a>
+						</div>																																
+					</div>					
+					<div class="project small 11" id="project-reader-prototype">
+						<div class="inside">
+							<a href="/work/reader-prototype/" rel="bookmark" >	
+								<img width="300" height="175" src="{{site.cdnurl}}/assets/images/thumb_reader.jpg" class="thumb wp-post-image" alt="Reader Prototypes" title="Reader Prototypes" />
+								<span class="title">
+									<span>Reader Prototypes</span>
+								</span>
+							</a>
+						</div>																																
+					</div>						
+				</div>
+				<span style="display:block;text-align:center;margin:20px 0 20px 0;"><a href="work/" title="Work" alt="Work">See more work &rarr;</a></span>
+			</div>
+		</div>
+	</div>
+</div>
