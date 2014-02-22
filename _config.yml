@@ -4,9 +4,6 @@ navigation:
 - text: Home
   title: Dan Carson
   url: /
-- text: Work
-  title: Dan Carson | Work
-  url: /work/
 - text: Blog
   title: Dan Carson | Blog
   url: /blog/
