@@ -4,12 +4,6 @@ navigation:
 - text: Home
   title: Dan Carson
   url: /
-- text: Blog
-  title: Dan Carson | Blog
-  url: /blog/
-- text: About
-  title: Dan Carson | About
-  url: /about/
 
 permalink: /blog/:title
 url: http://okdan.com
