@@ -99,23 +99,23 @@ div.wp-caption img {
 
 @font-face {
     font-family: "Harriet Display";
-    src: url("http://okdan.com/assets/fonts/3HDRglr.woff") format('woff');
+    src: url("http://localhost:4000/assets/fonts/3HDRglr.woff") format('woff');
 }
 
 @font-face {
     font-family: "Harriet Display";
-    src: url("http://okdan.com/assets/fonts/3HDBld.woff") format('woff');
+    src: url("http://localhost:4000/assets/fonts/3HDBld.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Alright Sans";
-    src: url("http://okdan.com/assets/fonts/ASLight.woff") format('woff');
+    src: url("http://localhost:4000/assets/fonts/ASLight.woff") format('woff');
 }
 
 @font-face {
     font-family: "Alright Sans";
-    src: url("http://okdan.com/assets/fonts/ASMed.woff") format('woff');
+    src: url("http://localhost:4000/assets/fonts/ASMed.woff") format('woff');
     font-weight: bold;
 }
 
