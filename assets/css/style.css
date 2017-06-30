@@ -705,11 +705,7 @@ a.action {
 	position: relative;
 	padding-top: 1px;
 	overflow: hidden;
-	background-color: #5b5078;
-	background-image: url({{site.cdnurl}}/assets/images/purple_header.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:center top;
+	background-color: #fff;
 }
 
 #homeBanner:before {
@@ -720,7 +716,7 @@ a.action {
 }
 
 #bannerText {
-	text-align: center;		
+	text-align: left;		
 	width: 80%;
 	padding-top: 225px;
 	display: inline-block;
@@ -731,7 +727,7 @@ a.action {
 #homeBanner h2{
 	font-family: "Harriet Display";
 	font-weight: bold;
-	color: #fff;
+	color: #004EFF;
 	margin: 0;
 	font-size: 52px;
 	line-height: 38px;
@@ -745,7 +741,7 @@ a.action {
 	margin-top: 30px;
 	font-family: "Alright Sans",sans-serif;
 	text-shadow: none;
-	color:#fff;
+	color:#737373;
 	line-height: 1.25em;
 }
 
