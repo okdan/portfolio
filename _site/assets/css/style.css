@@ -228,7 +228,7 @@ pre {
 }
 
 #pagehead{
-	background-color: #5b5078;
+	background-color: #004EFF;
 	margin: 0 0 80px 0;
 	padding: 0;
 }
@@ -266,11 +266,11 @@ a.action {
 }
 
 #sitetitle {
-	color: #aaa4bb;
+	color: #fff;
   	font-family: "Alright Sans";
   	text-transform: uppercase;
   	font-size: 16px;
-  	font-weight: bold;
+  	font-weight: normal;
   	letter-spacing: .1em;
   	width: 250px;
   	margin: 4px auto 0 auto;
@@ -285,19 +285,28 @@ a.action {
 #backhome a:link,
 #backhome a:active,
 #backhome a:visited {
-	color: #aaa4bb;
+	color: #fff;
 }
 
 #backhome a:hover {
-	color: #fbfaff;
+	color: #9AB9FD;
 }
 
 #single-project {
 	font-family: "Harriet Display";
-	font-weight: bold;
-	color: #f8523c;
+	font-weight: 300;
+	color: #004EFF;
 	margin: 0 0 10px 0;
-	font-size: 32px;
+	font-size: 42px;
+	text-align: center;
+}
+
+h2.project-sub-title {
+	font-family: "Harriet Display";
+	font-weight: 300;
+	color: #004EFF;
+	margin: 0 0 10px 0;
+	font-size: 42px;
 	text-align: center;
 }
 
@@ -313,7 +322,7 @@ a.action {
 	text-align: center;
 	font-size: 18px;
 	color: #7d7d7b;
-	line-height: 24px;
+	line-height: 26px;
 	width: 75%;
 	margin: 0 auto; 
 }
@@ -439,7 +448,7 @@ a.action {
 
 .fontIntro {
 	font-size: 14px;
-	color: #aaa4bb;
+	color: #9AB9FD;
 	width: 950px;
 	margin: 25px 0px 50px 25px;
 	text-align: center;
@@ -451,11 +460,11 @@ a.action {
 .fontIntro a:active, 
 .fontIntro a:visited {
 	text-decoration: underline;
-	color: #aaa4bb;
+	color: #9AB9FD;
 } 
 
 .fontIntro a:hover {
-	text-decoration: none;
+	color: #004EFF;
 } 
 
 .wideIntro{
@@ -1040,14 +1049,14 @@ a.button, #footer a.button {
 	padding-top: 50px;
 	text-align: center;
 	width: 950px;
-	color: #5b5078;
+	color: #004EFF;
 }
 
 .contactLinks a,
 .contactLinks a:link,
 .contactLinks a:active,
 .contactLinks a:visited{
-	color: #5b5078;
+	color: #004EFF;
 	font-weight: bold;
 }
 
@@ -1141,6 +1150,10 @@ a.darken:hover img {
 
 .m-left-25 {
 	margin-left: 25px!important;
+}
+
+.m-top-fifty {
+	margin-top: 50px !important;
 }
 
 .project.small a{
@@ -1457,6 +1470,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-control-nav li a.flex-active {background: rgba(255,255,255,0.7) !important; cursor: default !important;}
 
 
+.m-bottom-twenty{
+	margin-bottom: 20px !important;
+}
+
 .m-bottom-small{
 	margin-bottom: 0px !important;
 }
@@ -1476,6 +1493,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 .project-container-wide {
 	max-width: 1200px !important;
+}
+
+.white-bg {
+	background-color: #fff !important;
 }
 
 /*//////////////////////////////////////////////////////////////////// 
