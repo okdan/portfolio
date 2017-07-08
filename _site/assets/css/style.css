@@ -228,12 +228,9 @@ pre {
 }
 
 #pagehead{
-	background-color: #5b5078;
-	
+	background-color: #004EFF;
 	margin: 0 0 80px 0;
 	padding: 0;
-
-
 }
 
 
@@ -269,11 +266,11 @@ a.action {
 }
 
 #sitetitle {
-	color: #aaa4bb;
+	color: #fff;
   	font-family: "Alright Sans";
   	text-transform: uppercase;
   	font-size: 16px;
-  	font-weight: bold;
+  	font-weight: normal;
   	letter-spacing: .1em;
   	width: 250px;
   	margin: 4px auto 0 auto;
@@ -288,19 +285,28 @@ a.action {
 #backhome a:link,
 #backhome a:active,
 #backhome a:visited {
-	color: #aaa4bb;
+	color: #fff;
 }
 
 #backhome a:hover {
-	color: #fbfaff;
+	color: #9AB9FD;
 }
 
 #single-project {
 	font-family: "Harriet Display";
-	font-weight: bold;
-	color: #f8523c;
+	font-weight: 300;
+	color: #004EFF;
 	margin: 0 0 10px 0;
-	font-size: 32px;
+	font-size: 42px;
+	text-align: center;
+}
+
+h2.project-sub-title {
+	font-family: "Harriet Display";
+	font-weight: 300;
+	color: #004EFF;
+	margin: 0 0 10px 0;
+	font-size: 42px;
 	text-align: center;
 }
 
@@ -316,7 +322,14 @@ a.action {
 	text-align: center;
 	font-size: 18px;
 	color: #7d7d7b;
-	line-height: 24px;
+	line-height: 26px;
+	width: 75%;
+	margin: 0 auto; 
+}
+
+.project-segment-description {
+	font-size: 18px;
+	line-height: 26px;
 }
 
 #container {	
@@ -394,7 +407,7 @@ a.action {
 	font-size: 18px;
 	color: #514d5b;
 	display: block;	
-	margin: 0px 0 25px 25px;
+	margin: 0px 0 25px 0px;
 	padding-bottom: 0px;
 	float: left;	
 	position: relative;	
@@ -405,11 +418,44 @@ a.action {
 	color: #fff;
 }
 
+.headerWrap{
+	background: #fff;
+	padding: 175px 0 75px 0;
+}
+
+.headerWrap h2{
+	color: #004EFF;
+	font-family: "Harriet Display", "Georgia", serif;
+	font-size: 52px;
+	font-weight: bold;
+	margin-left: 25px!important;
+}
+
+.headerIntro{
+	font-size: 18px;
+	color: #737373;
+	width: 950px;
+}
+
+.job-title {
+	margin-bottom: 75px;
+	font-size: 20px
+}
+
+.self-description {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.job-title, .self-description, .work-intro{
+	margin-left: 25px;
+}
+
 .fontIntro {
 	font-size: 14px;
-	color: #aaa4bb;
+	color: #9AB9FD;
 	width: 950px;
-	margin: 25px 0px -35px 25px;
+	margin: 25px 0px 50px 25px;
 	text-align: center;
 	float: left;
 }
@@ -419,24 +465,42 @@ a.action {
 .fontIntro a:active, 
 .fontIntro a:visited {
 	text-decoration: underline;
-	color: #aaa4bb;
+	color: #9AB9FD;
 } 
 
 .fontIntro a:hover {
-	color: #fff;
-	text-decoration: underline;
+	color: #004EFF;
 } 
 
 .wideIntro{
 	width: 950px;
 	margin: 0 0px 50px 25px;
-	padding-top: 100px;
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+.freelanceIntro{
+	width: 950px;
+	margin: 0 0px 50px 25px;
+	padding-top: 0px;
+	font-size: 18px;
+	color: #000;
+}
+
+.bioIntro{
+	width: 950px;
+	margin: 0 0px 50px 25px;
+	padding-top: 50px;
 	font-size: 18px;
 	
 }
 
 #seattle {
 	color: #514d5b;
+}
+
+.row-logo{
+	margin-left: 25px;
 }
 
 /*////////////////////////////////////////////////////////////////////////
@@ -552,9 +616,9 @@ a.action {
 #content .videoContainer {margin-top: -20px;}
 
 #content.full {
-	margin: 0 0 20px 2.5%;
+	margin: 0 0 20px 0;
 	padding: 0 0 0 0 !important;
-	width: 95%;					
+	width: 100%;					
 }
 
 #content.full.grid {
@@ -702,11 +766,7 @@ a.action {
 	position: relative;
 	padding-top: 1px;
 	overflow: hidden;
-	background-color: #5b5078;
-	background-image: url(http://okdancdn.okdan.netdna-cdn.com/assets/images/purple_header.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:center top;
+	background-color: #fff;
 }
 
 #homeBanner:before {
@@ -717,7 +777,7 @@ a.action {
 }
 
 #bannerText {
-	text-align: center;		
+	text-align: left;		
 	width: 80%;
 	padding-top: 225px;
 	display: inline-block;
@@ -728,7 +788,7 @@ a.action {
 #homeBanner h2{
 	font-family: "Harriet Display";
 	font-weight: bold;
-	color: #fff;
+	color: #004EFF;
 	margin: 0;
 	font-size: 52px;
 	line-height: 38px;
@@ -742,7 +802,7 @@ a.action {
 	margin-top: 30px;
 	font-family: "Alright Sans",sans-serif;
 	text-shadow: none;
-	color:#fff;
+	color:#737373;
 	line-height: 1.25em;
 }
 
@@ -806,12 +866,17 @@ h1#pagetitle{
 }
 
 .port-thumb-title {
-	text-align: center;
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.work-intro {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-size: 16px;
-	margin-top: 5px;
+	margin-top: 120px;
+	color: #E59143;
 }
 
 .port-thumb-description {
@@ -839,6 +904,9 @@ h1#pagetitle{
 	margin: 0 20px 0px 20px;
 }
 
+.modest-row .port-thumb-title, .fullProjects .port-thumb-title{
+	color: #000!important;
+}
 
 
 /*Column Shortcodes------------------*/
@@ -921,7 +989,7 @@ a.button, #footer a.button {
 /*Photos------------------*/
 .photo{
 	display: block;	
-	margin: 25px 0 0px 25px;
+	margin: 25px 0 0px 0px;
 	padding-bottom: 0px;
 	float: left;	
 	position: relative;
@@ -951,20 +1019,24 @@ a.button, #footer a.button {
 .sectiondivider{
 	border-top: 1px solid #e4dfef;
 	display: block;
-	margin: 100px 0 100px 25px;
+	margin: 100px 0 100px 0px;
 	float: left;
 	width: 950px;
 	line-height: 0;
 }
 
 .spacer-small{
-	margin: 50px 0 75px 25px;
+	margin: 50px 0 75px 0px;
+}
+
+.spacer-bio{
+	margin: 0px 0 50px 25px;
 }
 
 .biodivider{
 	border-top: 1px solid #695f84;
 	display: block;
-	margin: 0px 0 0px 25px;
+	margin: 0px 0 0px 0px;
 	float: left;
 	width: 950px;
 	line-height: 0;
@@ -981,13 +1053,15 @@ a.button, #footer a.button {
 	margin: 0px 0 50px 25px;
 	padding-top: 50px;
 	text-align: center;
+	width: 950px;
+	color: #004EFF;
 }
 
 .contactLinks a,
 .contactLinks a:link,
 .contactLinks a:active,
 .contactLinks a:visited{
-	color: white;
+	color: #004EFF;
 	font-weight: bold;
 }
 
@@ -998,7 +1072,7 @@ a.button, #footer a.button {
 /*Projects------------------*/
 
 .thumbBack{
-	background: #5b5078;
+	background: #000;
 	margin-bottom: 15px;
 }
 
@@ -1039,7 +1113,7 @@ a.darken:hover img {
 .project.small{	
 	width: 300px;
 	display: block;	
-	margin: 0px 0 25px 25px;
+	margin: 0 0 25px 25px;
 	padding-bottom: 0px;
 	float: left;	
 	position: relative;		
@@ -1051,11 +1125,41 @@ a.darken:hover img {
 
 .obamawrap{
 	background: #5b5078;
-	padding: 0 0 90px 0;
-	margin: 75px 0 0 0;
+	padding: 0;
+	margin: 70px 0 0 0;
+	padding-top: 100px;
+	padding-bottom: 75px;
 }
 
 /* TEMPORARY */
+
+.crowdpac-row {
+	background-color: #E59143;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+.modest-row {
+	background-color: #E4E4E4;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+.modest-row .wideIntro {
+	color: #000;
+}
+
+.m-top-none{
+	margin-top: 0px!important;
+}
+
+.m-left-25 {
+	margin-left: 25px!important;
+}
+
+.m-top-fifty {
+	margin-top: 50px !important;
+}
 
 .project.small a{
 	position: relative;
@@ -1371,8 +1475,16 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-control-nav li a.flex-active {background: rgba(255,255,255,0.7) !important; cursor: default !important;}
 
 
+.m-bottom-twenty{
+	margin-bottom: 20px !important;
+}
+
 .m-bottom-small{
 	margin-bottom: 0px !important;
+}
+
+.m-bottom-fifty {
+	margin-bottom: 50px;
 }
 
 .mediumIntro{
@@ -1382,6 +1494,14 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 .visible-phone{
 	display: none;
+}
+
+.project-container-wide {
+	max-width: 1200px !important;
+}
+
+.white-bg {
+	background-color: #fff !important;
 }
 
 /*//////////////////////////////////////////////////////////////////// 
@@ -1409,16 +1529,34 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	.thumbs {
-		width: 675px;		
+		width: auto;		
 		margin: 0 auto;		
+	}
+
+	.headerWrap {
+		padding-top: 75px;
+		padding-bottom: 55px;
+	}
+
+	.headerWrap h2 {
+		font-size: 42px;
+	}
+
+	.headerIntro.job-title,
+	.headerIntro.self-description {
+		margin-bottom: 30px;
+	}
+
+	.work-intro {
+		margin-top: 75px;
 	}
 
 	.obamawrap {
 		margin-top: 25px;
 	}
 
-	.obamawrap #main {
-		width: 675px;
+	.obamawrap #main, #main, .footerwrap #main {
+		width: auto;
 		margin: 0 auto;
 	}
 
@@ -1429,12 +1567,20 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		line-height: 1.25em;
 	}
 
-	.wideIntro, .mediumIntro{
+	.wideIntro, .mediumIntro, .headerIntro, .freelanceIntro, .bioIntro{
 		width: 92.5%;
 		margin: 0 0px 50px 25px;
 		padding-top: 50px;
 		font-size: 16px;
 		line-height: 1.25em;
+	}
+
+	.job-title, .self-description{
+		padding-top: 0px!important;
+	}
+
+	.bioIntro{
+		margin-bottom: 0px;
 	}
 
 	.mediumIntro{
@@ -1455,7 +1601,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 	.contactLinks{
 		width: 625px;
-		font-size: 18px;
+		font-size: 15px;
 		margin: 0px 0 50px 25px;
 		padding-top: 50px;
 	}
@@ -1479,14 +1625,25 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	.fontIntro {
-		width: 675px;
-		margin: 25px 0px -35px 25px;
+		width: auto;
+		margin: 25px 0px 50px 25px;
 	}
 	
 	.flex-direction-nav {display: none !important;}
 
 	.wrap.home{
 		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 667px)  {
+	.headerWrap {
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	.work-intro {
+		margin-top: 50px;
 	}
 }
 
@@ -1529,8 +1686,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		margin-top: 25px;
 	}
 	
-	#pageHead {
-		margin: 0 0px 25px;		
+	#pagehead {
+		margin: 0 0px 25px 0;		
 	}
 	
 	#pageHead h1 { font-size: 1.2em;}
@@ -1563,6 +1720,24 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 				
 	.gallery-item img{
 		width: 90%;
+	}
+
+	.headerWrap h2{
+		margin-left: 0px!important;
+		font-size: 42px;
+	}
+
+	.work-intro {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.row-logo{
+		margin-left: 0;
+	}
+
+	.wideIntro, .mediumIntro, .headerIntro, .freelanceIntro, .bioIntro{
+		margin-left: 0px;
 	}
 	
 	/*Column Shortcodes------------------*/
@@ -1602,6 +1777,29 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 
 @media screen and (max-width: 650px) {
+	.headerWrap {
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	.work-intro {
+		margin-top: 50px;
+	}
+
+	h1#single-project{
+		font-size: 32px;
+	}
+
+	h2.project-sub-title {
+		font-size: 26px;
+	}
+
+	.project-description {
+		font-size: 16px;
+		line-height: 22px;
+		width: 95%;
+	}
+
 	#bannerText h2 {
 		line-height: 1em;
 	}
@@ -1647,7 +1845,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		margin-left: 0px;
 	}
 
-	.wideIntro{
+	.wideIntro, .headerIntro{
 		width: 300px;
 		margin: 0 0px 50px 0px;
 		padding-top: 50px;
@@ -1655,9 +1853,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 	.obamawrap {
 		margin-top: 25px;
+		padding-top: 50px;
+		padding-bottom: 20px;
 	}
 
-	.obamawrap #main {
+	.obamawrap #main, .headerWrap #main, .footerwrap #main {
 		width: 300px;
 		margin: 0 auto;
 	}
@@ -1670,7 +1870,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		width: 300px;
 		font-size: 16px;
 		margin: 0px 0 50px 0px;
-		padding-top: 50px;
+		padding-top: 0px;
 		float: left;
 	}
 
