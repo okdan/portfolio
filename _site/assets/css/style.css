@@ -99,23 +99,23 @@ div.wp-caption img {
 
 @font-face {
     font-family: "Harriet Display";
-    src: url("http://localhost:4000/assets/fonts/3HDRglr.woff") format('woff');
+    src: url("http://okdan.com/assets/fonts/3HDRglr.woff") format('woff');
 }
 
 @font-face {
     font-family: "Harriet Display";
-    src: url("http://localhost:4000/assets/fonts/3HDBld.woff") format('woff');
+    src: url("http://okdan.com/assets/fonts/3HDBld.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Alright Sans";
-    src: url("http://localhost:4000/assets/fonts/ASLight.woff") format('woff');
+    src: url("http://okdan.com/assets/fonts/ASLight.woff") format('woff');
 }
 
 @font-face {
     font-family: "Alright Sans";
-    src: url("http://localhost:4000/assets/fonts/ASMed.woff") format('woff');
+    src: url("http://okdan.com/assets/fonts/ASMed.woff") format('woff');
     font-weight: bold;
 }
 
@@ -815,7 +815,7 @@ h2.project-sub-title {
 	font-size: 1em;	
 	margin: 0 auto 30px;
 	clear: both;
-	background: transparent url(/assets/images/line.gif) 0 center repeat-x;	
+	background: transparent url(http://okdancdn.okdan.netdna-cdn.com/assets/images/line.gif) 0 center repeat-x;	
 	color: #555555;
 	text-align: center;	
 	font-family: "Harriet Display", "Georgia", serif;
@@ -1458,7 +1458,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	-webkit-transition: none; -moz-transition: none; transition: none;
 	-webkit-transition: opacity .5s ease; -moz-transition: opacity .5s ease; transition: opacity .5s ease;
 }
-.flex-direction-nav li a { z-index: 100; width: 30px!important; height: 30px; margin: -20px 0 0; display: block; background: url(/assets/images/direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a { z-index: 100; width: 30px!important; height: 30px; margin: -20px 0 0; display: block; background: url(http://okdancdn.okdan.netdna-cdn.com/assets/images/direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
 .flex-direction-nav li a.flex-next {background-position: -30px 0; right: 20px !important;}
 .single-product .flex-direction-nav li a.flex-next {right: -5px !important;}
 .flex-direction-nav li a.flex-next:hover {background-position: -30px -30px;}
