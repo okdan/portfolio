@@ -6,5 +6,5 @@ navigation:
   url: /
 
 permalink: /blog/:title
-url:  http://okdan.com
+url:  http://www.okdan.com
 cdnurl: http://okdancdn.okdan.netdna-cdn.com
