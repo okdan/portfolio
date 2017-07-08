@@ -1529,8 +1529,26 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	.thumbs {
-		width: 675px;		
+		width: auto;		
 		margin: 0 auto;		
+	}
+
+	.headerWrap {
+		padding-top: 75px;
+		padding-bottom: 55px;
+	}
+
+	.headerWrap h2 {
+		font-size: 42px;
+	}
+
+	.headerIntro.job-title,
+	.headerIntro.self-description {
+		margin-bottom: 30px;
+	}
+
+	.work-intro {
+		margin-top: 75px;
 	}
 
 	.obamawrap {
@@ -1538,7 +1556,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	.obamawrap #main, #main, .footerwrap #main {
-		width: 675px;
+		width: auto;
 		margin: 0 auto;
 	}
 
@@ -1607,7 +1625,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	.fontIntro {
-		width: 675px;
+		width: auto;
 		margin: 25px 0px 50px 25px;
 	}
 	
@@ -1615,6 +1633,17 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 	.wrap.home{
 		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 667px)  {
+	.headerWrap {
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	.work-intro {
+		margin-top: 50px;
 	}
 }
 
@@ -1657,8 +1686,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		margin-top: 25px;
 	}
 	
-	#pageHead {
-		margin: 0 0px 25px;		
+	#pagehead {
+		margin: 0 0px 25px 0;		
 	}
 	
 	#pageHead h1 { font-size: 1.2em;}
@@ -1691,10 +1720,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 				
 	.gallery-item img{
 		width: 90%;
-	}
-
-	.headerWrap {
-		padding: 75px 0 25px 0;
 	}
 
 	.headerWrap h2{
@@ -1752,6 +1777,29 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 }
 
 @media screen and (max-width: 650px) {
+	.headerWrap {
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	.work-intro {
+		margin-top: 50px;
+	}
+
+	h1#single-project{
+		font-size: 32px;
+	}
+
+	h2.project-sub-title {
+		font-size: 26px;
+	}
+
+	.project-description {
+		font-size: 16px;
+		line-height: 22px;
+		width: 95%;
+	}
+
 	#bannerText h2 {
 		line-height: 1em;
 	}
