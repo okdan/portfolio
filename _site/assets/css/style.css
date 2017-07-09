@@ -1782,6 +1782,12 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		padding-bottom: 25px;
 	}
 
+	.home-photos-wrap {
+		display: flex;
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+
 	.work-intro {
 		margin-top: 50px;
 	}
