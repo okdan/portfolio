@@ -228,11 +228,14 @@ pre {
 }
 
 #pagehead{
-	background-color: #004EFF;
+	background-color: #225DE3;
 	margin: 0 0 80px 0;
 	padding: 0;
 }
 
+.black-color {
+	color: #353535 !important;
+}
 
 
 /* Clearfix ----------- */
@@ -295,16 +298,16 @@ a.action {
 #single-project {
 	font-family: "Harriet Display";
 	font-weight: 300;
-	color: #004EFF;
+	color: #225DE3;
 	margin: 0 0 10px 0;
-	font-size: 42px;
+	font-size: 52px;
 	text-align: center;
 }
 
 h2.project-sub-title {
 	font-family: "Harriet Display";
 	font-weight: 300;
-	color: #004EFF;
+	color: #225DE3;
 	margin: 0 0 10px 0;
 	font-size: 42px;
 	text-align: center;
@@ -358,6 +361,13 @@ h2.project-sub-title {
 	margin: 0 auto;
 	padding: 0 0 0px 0;	
 	max-width: 62.5em;			
+}
+
+.desc-alignment {
+	width: 65% !important;
+	text-align: left !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .home #main {	
@@ -424,7 +434,7 @@ h2.project-sub-title {
 }
 
 .headerWrap h2{
-	color: #004EFF;
+	color: #225DE3;
 	font-family: "Harriet Display", "Georgia", serif;
 	font-size: 52px;
 	font-weight: bold;
@@ -438,7 +448,7 @@ h2.project-sub-title {
 }
 
 .job-title {
-	margin-bottom: 75px;
+	margin-bottom: 55px;
 	font-size: 20px
 }
 
@@ -516,7 +526,6 @@ h2.project-sub-title {
 }
 
 .header .inside{	
-	max-width: 62.5em;
 	margin: 0 auto;	
 	position: relative;
 	padding: 20px 0 20px 0;
@@ -756,6 +765,17 @@ h2.project-sub-title {
 	color: #aaa;
 }
 
+.roles-list {
+	margin: 0 !important;
+	padding: 0 !important; 
+}
+
+.roles-list li{
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style: none;
+}
+
 /*Home ------------------*/
 #homeBanner {	
 	height: 585px;
@@ -885,6 +905,36 @@ h1#pagetitle{
 	font-size: 16px;
 	text-align: center;
 	margin-top: 5px;
+}
+
+.project-background {
+	margin-bottom: 60px;
+}
+
+.background-intro {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 16px;
+	margin-top: 60px;
+	color: #E59143;
+	margin-bottom: 10px;
+}
+
+.challenges {
+	width: 70%;
+	margin-right: 25px;
+	float: left;
+}
+
+.roles {
+	width: 20%;
+	float: left;
+}
+
+.background-description {
+	font-size: 18px;
+	line-height: 26px;
 }
 
 .obamawrap .port-thumb-title{
@@ -1054,18 +1104,32 @@ a.button, #footer a.button {
 	padding-top: 50px;
 	text-align: center;
 	width: 950px;
-	color: #004EFF;
+	color: #225DE3;
 }
 
 .contactLinks a,
 .contactLinks a:link,
 .contactLinks a:active,
 .contactLinks a:visited{
-	color: #004EFF;
+	color: #225DE3;
 	font-weight: bold;
 }
 
 .contactLinks a:hover{
+	text-decoration: underline;
+}
+
+a.view-site-link,
+a:link.view-site-link,
+a:active.view-site-link,
+a:visited.view-site-link {
+	font-size: 16px;
+	margin-top: 25px !important;
+	display: block;
+	color: #225DE3;
+}
+
+a:hover.view-site-link {
 	text-decoration: underline;
 }
 
@@ -1645,6 +1709,14 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	.work-intro {
 		margin-top: 50px;
 	}
+
+	.challenges {
+		width: 100%;
+	}
+	
+	.roles {
+		width: 100%;
+	}
 }
 
 /*layouts smaller than 600px, iPhone and mobiles*/
@@ -1804,6 +1876,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		font-size: 16px;
 		line-height: 22px;
 		width: 95%;
+	}
+
+	.background-description {
+		font-size: 16px;
+		line-height: 22px;
 	}
 
 	#bannerText h2 {
